@@ -62,7 +62,7 @@ identity:
 
 ### 🐍 Neural Contribution Grid
 
-<img src="./assets/snake.svg" width="100%" alt="Contribution Grid Snake Animation" />
+<img src="./assets/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Grid Snake Animation" />
 
 <!-- ANIMATED GLOWING LASER DIVIDER -->
 <img src="./assets/divider.svg" width="100%" alt="Glowing Laser Divider" />
