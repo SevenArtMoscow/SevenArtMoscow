@@ -6,7 +6,7 @@
 <!-- ANIMATED TYPING TERMINAL -->
 <p align="center">
   <a href="https://github.com/SevenArtMoscow">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=1100&color=FFFFFF&background=00000000&center=true&vCenter=true&width=680&lines=%E2%9A%A1+Hi%2C+I'm+Alexandra+%2F%2F+%40SevenArtMoscow;%E2%96%B6+Full-Stack+Architect+%26+Bot+Developer+%F0%9F%96%A4;%E2%96%B6+Crafting+minimalist+interfaces+%26+dark+aesthetics+%E2%9C%A8;%E2%96%B6+Python+%E2%80%A2+TypeScript+%E2%80%A2+Scalable+Engines+%E2%9A%94%EF%B8%8F;%E2%96%B6+Transforming+pure+logic+into+high-performance+code+%F0%9F%8C%91" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=1100&color=FFFFFF&background=00000000&center=true&vCenter=true&width=680&lines=%E2%9A%A1+Hi%2C+I'm+Artyom+%2F%2F+%40SevenArtMoscow;%E2%96%B6+Full-Stack+Architect+%26+Bot+Developer+%F0%9F%96%A4;%E2%96%B6+Crafting+minimalist+interfaces+%26+dark+aesthetics+%E2%9C%A8;%E2%96%B6+Python+%E2%80%A2+TypeScript+%E2%80%A2+Scalable+Engines+%E2%9A%94%EF%B8%8F;%E2%96%B6+Transforming+pure+logic+into+high-performance+code+%F0%9F%8C%91" alt="Typing SVG" />
   </a>
 </p>
 
@@ -41,7 +41,7 @@
 ```yaml
 identity:
   handle: "SevenArtMoscow"
-  engineer: "Alexandra"
+  engineer: "Artyom"
   archetype: "Full-Stack Architect & Bot Engineer"
   coordinates: "Moscow, Earth [55.7558° N, 37.6173° E]"
   aesthetic: "Dark Mode Supremacy • Monochrome • High Contrast"

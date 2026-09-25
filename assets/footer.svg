@@ -30,9 +30,9 @@
 
   <!-- Footer Text -->
   <text x="450" y="52" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#888888" letter-spacing="3">
-    SEVEN ART MOSCOW &bull; CRAFTED IN THE VOID
+    SEVEN ART MOSCOW &#8226; CRAFTED IN THE VOID
   </text>
   <text x="450" y="70" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" fill="#444444" letter-spacing="1.5">
-    ALL RIGHTS RESERVED &bull; MONOCHROME EDITION &bull; 2026
+    ALL RIGHTS RESERVED &#8226; MONOCHROME EDITION &#8226; 2026
   </text>
 </svg>

@@ -157,6 +157,6 @@
   <!-- Bottom System Status with Glowing Indicator -->
   <g transform="translate(320, 205)">
     <circle cx="0" cy="0" r="3.5" fill="#ffffff" class="pulse-dot" filter="url(#glow)" />
-    <text x="14" y="3.5" class="status-text">CORE STATUS: ACTIVE &bull; CODE &bull; ARCHITECTURE &bull; NOIR</text>
+    <text x="14" y="3.5" class="status-text">CORE STATUS: ACTIVE &#8226; CODE &#8226; ARCHITECTURE &#8226; NOIR</text>
   </g>
 </svg>

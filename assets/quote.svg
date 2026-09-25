@@ -52,14 +52,14 @@
   <path d="M 868 96 L 868 108 L 856 108" fill="none" stroke="#444444" stroke-width="1.5" />
 
   <!-- Code Line 1 -->
-  <text x="36" y="38" class="term-prompt">user@sevenart:~$ <tspan class="term-code" fill="#ffffff">execute --manifesto "digital_void"</tspan></text>
+  <text x="36" y="38" class="term-prompt">artyom@sevenart:~$ <tspan class="term-code" fill="#ffffff">execute --manifesto "digital_void"</tspan></text>
 
   <!-- Output Line 2 -->
   <text x="36" y="66" class="term-code" filter="url(#textGlow)">
     &gt; "Perfection in software is achieved not when there is nothing more to add,
   </text>
   <text x="36" y="88" class="term-code" filter="url(#textGlow)">
-    &nbsp;&nbsp;but when there is nothing left to take away. Dark, silent, unstoppable."
+    &#160;&#160;but when there is nothing left to take away. Dark, silent, unstoppable."
   </text>
   
   <!-- Blinking Cursor -->
