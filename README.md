@@ -1,127 +1,139 @@
 <div align="center">
 
-<!-- HEADER BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,14,26,30&height=220&section=header&text=SevenArtMoscow&fontSize=48&fontAlignY=36&animation=twinkling&desc=Full-Stack%20Developer%20%E2%80%A2%20Bot%20Architect%20%E2%80%A2%20Creative%20Coder&descFontSize=18&descAlignY=58" width="100%" />
+<!-- ANIMATED CYBER GLOW HEADER BANNER -->
+<img src="./assets/header.svg" width="100%" alt="SevenArtMoscow Cyber Glow Header" />
 
-<!-- TYPING ANIMATION -->
+<!-- ANIMATED TYPING TERMINAL -->
 <p align="center">
   <a href="https://github.com/SevenArtMoscow">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=7AA2F7&center=true&vCenter=true&width=620&lines=Hi+there,+I'm+Alexandra+👋;Full-Stack+Developer+%26+Bot+Architect+🚀;Crafting+modern+web+apps+%26+interactive+UIs+✨;Building+smart+Telegram+bots+%26+automation+⚙️;Turning+creative+ideas+into+clean+code+💻" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=1100&color=FFFFFF&background=00000000&center=true&vCenter=true&width=680&lines=%E2%9A%A1+Hi%2C+I'm+Alexandra+%2F%2F+%40SevenArtMoscow;%E2%96%B6+Full-Stack+Architect+%26+Bot+Developer+%F0%9F%96%A4;%E2%96%B6+Crafting+minimalist+interfaces+%26+dark+aesthetics+%E2%9C%A8;%E2%96%B6+Python+%E2%80%A2+TypeScript+%E2%80%A2+Scalable+Engines+%E2%9A%94%EF%B8%8F;%E2%96%B6+Transforming+pure+logic+into+high-performance+code+%F0%9F%8C%91" alt="Typing SVG" />
   </a>
 </p>
 
-<!-- QUICK STATS / SOCIAL BADGES -->
+<!-- QUICK MONOCHROME BADGES -->
 <p align="center">
   <a href="https://github.com/SevenArtMoscow?tab=repositories">
-    <img src="https://img.shields.io/github/followers/SevenArtMoscow?label=Followers&logo=github&style=for-the-badge&color=24292e&labelColor=161b22" />
+    <img src="https://img.shields.io/github/followers/SevenArtMoscow?label=Followers&logo=github&style=for-the-badge&color=000000&labelColor=121212&logoColor=white" alt="Followers" />
   </a>
+  <img src="https://komarev.com/ghpvc/?username=SevenArtMoscow&style=for-the-badge&color=000000&labelColor=121212&base=100" alt="Profile Views" />
   <a href="mailto:sasasnaratova@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Get%20in%20Touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Contact-Get%20in%20Touch-000000?style=for-the-badge&logo=gmail&logoColor=white&labelColor=121212" alt="Contact" />
   </a>
-  <img src="https://img.shields.io/badge/Focus-Full--Stack%20%26%20Bots-8A2BE2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Aesthetic-Monochrome%20Noir-000000?style=for-the-badge&logo=target&logoColor=white&labelColor=121212" alt="Theme" />
 </p>
+
+<!-- ANIMATED GLOWING LASER DIVIDER -->
+<img src="./assets/divider.svg" width="100%" alt="Glowing Laser Divider" />
 
 </div>
 
----
+<br/>
 
-### 💫 About Me
+<!-- TERMINAL PHILOSOPHY / MANIFESTO -->
+<p align="center">
+  <img src="./assets/quote.svg" width="100%" alt="Philosophy Terminal" />
+</p>
+
+<br/>
+
+### 🌑 System Identity & Parameters
 
 ```yaml
-user: SevenArtMoscow
-role: Full-Stack Developer & Bot Architect
-location: Moscow, Russia
-loves: Modern Web, Clean UI/UX, Telegram Bot Ecosystem, Scalable Backends
-motto: "Transforming ambitious ideas into seamless, elegant digital experiences."
+identity:
+  handle: "SevenArtMoscow"
+  engineer: "Alexandra"
+  archetype: "Full-Stack Architect & Bot Engineer"
+  coordinates: "Moscow, Earth [55.7558° N, 37.6173° E]"
+  aesthetic: "Dark Mode Supremacy • Monochrome • High Contrast"
+  doctrine: "Write clean code, eliminate friction, engineer perfection."
 ```
 
-- 🔭 **Currently working on**: Scalable interactive web applications and smart Telegram bots
-- 🌱 **Learning & Exploring**: Advanced asynchronous Python architectures, Next.js, AI/MCP integrations
-- 💬 **Ask me about**: **Python**, **TypeScript / JavaScript**, **Telegram Bot API**, **Responsive UI Design**
-- ⚡ **Fun fact**: Good code is like good coffee — robust, balanced, and fuels real progress ☕
+- ⚡ **Core Focus**: Developing high-throughput Telegram bots, async architectures, and fluid dark-mode web interfaces.
+- 🌑 **Design Philosophy**: Minimalist noir, glowing luminescence, maximum readability and 60 FPS interactions.
+- ⚙️ **Under the Hood**: Deep understanding of Python concurrency (`asyncio`, `aiogram`), modern frontend systems (`Next.js`, `TypeScript`), and distributed microservices.
+- 💬 **Ask Me About**: Bot ecosystem scalability, backend optimization, bespoke modern UX/UI.
 
----
-
-### 🛠️ Tech Stack & Ecosystem
+<br/>
 
 <div align="center">
 
-#### 🌐 Languages & Frontend
+<!-- ANIMATED GLOWING LASER DIVIDER -->
+<img src="./assets/divider.svg" width="100%" alt="Glowing Laser Divider" />
+
+### 🐍 Neural Contribution Grid
+
+<img src="./assets/snake.svg" width="100%" alt="Contribution Grid Snake Animation" />
+
+<!-- ANIMATED GLOWING LASER DIVIDER -->
+<img src="./assets/divider.svg" width="100%" alt="Glowing Laser Divider" />
+
+### ⚔️ Tech Arsenal & Stack
+
 <p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <strong>🌐 Languages &amp; Core</strong><br/>
+  <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white&labelColor=121212" alt="Python" />
+  <img src="https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=white&labelColor=121212" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=white&labelColor=121212" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=white&labelColor=121212" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=white&labelColor=121212" alt="CSS3" />
 </p>
 
-#### ⚙️ Backend, Bots & Automation
 <p>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Telegram_Bot_API-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" />
-  <img src="https://img.shields.io/badge/Aiogram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <strong>⚡ Frameworks &amp; Frontend</strong><br/>
+  <img src="https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=white&labelColor=121212" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white&labelColor=121212" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-000000?style=for-the-badge&logo=tailwindcss&logoColor=white&labelColor=121212" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=121212" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=121212" alt="Node.js" />
 </p>
 
-#### 🧰 Tools & Workflow
 <p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+  <strong>🤖 Bots &amp; Backend Infrastructure</strong><br/>
+  <img src="https://img.shields.io/badge/Telegram_Bot_API-000000?style=for-the-badge&logo=telegram&logoColor=white&labelColor=121212" alt="Telegram Bot API" />
+  <img src="https://img.shields.io/badge/Aiogram-000000?style=for-the-badge&logo=telegram&logoColor=white&labelColor=121212" alt="Aiogram" />
+  <img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=white&labelColor=121212" alt="Docker" />
+  <img src="https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=121212" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/SQLite-000000?style=for-the-badge&logo=sqlite&logoColor=white&labelColor=121212" alt="SQLite" />
 </p>
+
+<p>
+  <strong>🧰 Tools &amp; Development Workflow</strong><br/>
+  <img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=white&labelColor=121212" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white&labelColor=121212" alt="GitHub" />
+  <img src="https://img.shields.io/badge/VS_Code-000000?style=for-the-badge&logo=visualstudiocode&logoColor=white&labelColor=121212" alt="VS Code" />
+  <img src="https://img.shields.io/badge/Figma-000000?style=for-the-badge&logo=figma&logoColor=white&labelColor=121212" alt="Figma" />
+  <img src="https://img.shields.io/badge/Postman-000000?style=for-the-badge&logo=postman&logoColor=white&labelColor=121212" alt="Postman" />
+</p>
+
+<!-- ANIMATED GLOWING LASER DIVIDER -->
+<img src="./assets/divider.svg" width="100%" alt="Glowing Laser Divider" />
 
 </div>
 
----
+### 🚀 Selected Operations & Repositories
 
-### 🚀 Featured Repositories
-
-| Project | Description | Tech Stack |
+| Operation / Project | Mission Brief | Tech Stack |
 | :--- | :--- | :--- |
-| ☕ **[tumbler-sever](https://github.com/SevenArtMoscow/tumbler-sever)** | Specialty coffee landing page demo showcase | `HTML5` `CSS3` `JavaScript` |
-| 🤖 **[telegram-mentor-bot](https://github.com/SevenArtMoscow/telegram-mentor-bot)** | Interactive Telegram bot for collecting & organizing mentor stories | `Python` `Telegram API` `AsyncIO` |
-| 🎓 **[spirkina](https://github.com/SevenArtMoscow/spirkina)** | Web application for Olga Spirkina Media School | `TypeScript` `React / Next` `CSS3` |
-| 🗳️ **[voting-bot](https://github.com/SevenArtMoscow/voting-bot)** | Advanced voting and polling engine with web dashboard | `Python` `HTML5` `Docker` |
-| ⚡ **[tumbler-raid](https://github.com/SevenArtMoscow/tumbler-raid)** | High-impact interactive landing & web showcase | `HTML5` `CSS3` `JavaScript` |
+| ☕ **[tumbler-sever](https://github.com/SevenArtMoscow/tumbler-sever)** | Specialty coffee digital showcase & landing experience | `HTML5` `CSS3` `JavaScript` |
+| 🤖 **[telegram-mentor-bot](https://github.com/SevenArtMoscow/telegram-mentor-bot)** | Interactive Telegram system for collecting & curating mentor stories | `Python` `Aiogram` `AsyncIO` |
+| 🎓 **[spirkina](https://github.com/SevenArtMoscow/spirkina)** | Web application for Olga Spirkina Media School platform | `TypeScript` `React / Next.js` `CSS3` |
+| 🗳️ **[voting-bot](https://github.com/SevenArtMoscow/voting-bot)** | High-concurrency voting and polling engine with management dashboard | `Python` `Docker` `HTML5` |
+| ⚡ **[tumbler-raid](https://github.com/SevenArtMoscow/tumbler-raid)** | High-impact interactive promotional platform & web showcase | `HTML5` `CSS3` `JavaScript` |
 
----
-
-### 📊 GitHub Analytics
+<br/>
 
 <div align="center">
 
-<table border="0">
-  <tr>
-    <td align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=SevenArtMoscow&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7AA2F7&icon_color=BB9AF7&text_color=C0CAF5" width="410" alt="SevenArtMoscow's GitHub Stats" />
-    </td>
-    <td align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SevenArtMoscow&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7AA2F7&text_color=C0CAF5" width="370" alt="Top Languages" />
-    </td>
-  </tr>
-</table>
+<!-- ANIMATED GLOWING LASER DIVIDER -->
+<img src="./assets/divider.svg" width="100%" alt="Glowing Laser Divider" />
+
+### 📊 Streak & Momentum
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=SevenArtMoscow&theme=tokyonight&hide_border=true&background=0D1117&ring=7AA2F7&fire=F778BA&currStreakLabel=7AA2F7" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=SevenArtMoscow&theme=dark&background=000000&border=222222&stroke=ffffff&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=ffffff&sideLabels=888888&dates=555555&hide_border=false&border_radius=10" alt="SevenArtMoscow Streak" />
 </p>
 
-</div>
-
----
-
-<div align="center">
-
-<!-- FOOTER WAVE -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,14,26,30&height=120&section=footer" width="100%" />
-
-<sub>⭐️ *Designed with passion & precision for [SevenArtMoscow](https://github.com/SevenArtMoscow)* ⭐️</sub>
+<!-- ANIMATED FOOTER BANNER -->
+<img src="./assets/footer.svg" width="100%" alt="SevenArtMoscow Footer" />
 
 </div>

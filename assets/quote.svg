@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 120" width="100%" height="120" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="quoteBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080808" />
+      <stop offset="100%" stop-color="#030303" />
+    </linearGradient>
+    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes cursorBlink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .cursor {
+      animation: cursorBlink 1s step-end infinite;
+      fill: #ffffff;
+    }
+    .term-prompt {
+      font-family: 'Courier New', Courier, monospace, 'Consolas';
+      font-size: 13px;
+      fill: #777777;
+    }
+    .term-code {
+      font-family: 'Courier New', Courier, monospace, 'Consolas';
+      font-size: 14px;
+      font-weight: 600;
+      fill: #ffffff;
+      letter-spacing: 0.5px;
+    }
+    .term-comment {
+      font-family: 'Courier New', Courier, monospace, 'Consolas';
+      font-size: 12px;
+      fill: #555555;
+      font-style: italic;
+    }
+  </style>
+
+  <!-- Terminal Card -->
+  <rect width="880" height="120" rx="10" fill="url(#quoteBg)" stroke="#1f1f1f" stroke-width="1.2" />
+
+  <!-- Corner Brackets -->
+  <path d="M 12 24 L 12 12 L 24 12" fill="none" stroke="#444444" stroke-width="1.5" />
+  <path d="M 868 24 L 868 12 L 856 12" fill="none" stroke="#444444" stroke-width="1.5" />
+  <path d="M 12 96 L 12 108 L 24 108" fill="none" stroke="#444444" stroke-width="1.5" />
+  <path d="M 868 96 L 868 108 L 856 108" fill="none" stroke="#444444" stroke-width="1.5" />
+
+  <!-- Code Line 1 -->
+  <text x="36" y="38" class="term-prompt">user@sevenart:~$ <tspan class="term-code" fill="#ffffff">execute --manifesto "digital_void"</tspan></text>
+
+  <!-- Output Line 2 -->
+  <text x="36" y="66" class="term-code" filter="url(#textGlow)">
+    &gt; "Perfection in software is achieved not when there is nothing more to add,
+  </text>
+  <text x="36" y="88" class="term-code" filter="url(#textGlow)">
+    &nbsp;&nbsp;but when there is nothing left to take away. Dark, silent, unstoppable."
+  </text>
+  
+  <!-- Blinking Cursor -->
+  <rect x="715" y="75" width="8" height="15" class="cursor" filter="url(#textGlow)" />
+</svg>

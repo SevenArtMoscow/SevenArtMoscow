@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 30" width="100%" height="30" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="divLineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0" />
+      <stop offset="25%" stop-color="#ffffff" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.8" />
+      <stop offset="75%" stop-color="#ffffff" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="movingBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+
+    <filter id="divGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes sweep {
+      0% { transform: translateX(-250px); }
+      100% { transform: translateX(950px); }
+    }
+    @keyframes pulseDiamond {
+      0%, 100% { transform: scale(1); opacity: 0.8; filter: drop-shadow(0 0 4px #ffffff); }
+      50% { transform: scale(1.3); opacity: 1; filter: drop-shadow(0 0 10px #ffffff); }
+    }
+    .beam {
+      animation: sweep 4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+    .center-node {
+      transform-origin: 450px 15px;
+      animation: pulseDiamond 2.5s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Base Dark Line -->
+  <line x1="50" y1="15" x2="850" y2="15" stroke="url(#divLineGrad)" stroke-width="1.5" />
+
+  <!-- Animated Moving Laser Beam -->
+  <g clip-path="url(#lineClip)">
+    <clipPath id="lineClip">
+      <rect x="50" y="0" width="800" height="30" />
+    </clipPath>
+    <rect class="beam" y="13.5" width="200" height="3" fill="url(#movingBeam)" filter="url(#divGlow)" />
+  </g>
+
+  <!-- Center Decorative Diamond Node -->
+  <g class="center-node">
+    <polygon points="450,9 456,15 450,21 444,15" fill="#ffffff" filter="url(#divGlow)" />
+    <circle cx="450" cy="15" r="2" fill="#000000" />
+  </g>
+
+  <!-- Left & Right Accent Dots -->
+  <circle cx="250" cy="15" r="2" fill="#ffffff" opacity="0.4" />
+  <circle cx="650" cy="15" r="2" fill="#ffffff" opacity="0.4" />
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 90" width="100%" height="90" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0" />
+      <stop offset="50%" stop-color="#111111" stop-opacity="1" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </linearGradient>
+    <filter id="fGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes footerPulse {
+      0%, 100% { opacity: 0.6; }
+      50% { opacity: 1; }
+    }
+    .footer-glow {
+      animation: footerPulse 3s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Horizontal Beam -->
+  <line x1="100" y1="20" x2="800" y2="20" stroke="#222222" stroke-width="1" />
+  <circle cx="450" cy="20" r="3" fill="#ffffff" filter="url(#fGlow)" class="footer-glow" />
+
+  <!-- Footer Text -->
+  <text x="450" y="52" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#888888" letter-spacing="3">
+    SEVEN ART MOSCOW &bull; CRAFTED IN THE VOID
+  </text>
+  <text x="450" y="70" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" fill="#444444" letter-spacing="1.5">
+    ALL RIGHTS RESERVED &bull; MONOCHROME EDITION &bull; 2026
+  </text>
+</svg>

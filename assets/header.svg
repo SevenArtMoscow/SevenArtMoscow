@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="240" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030303" />
+      <stop offset="50%" stop-color="#0a0a0a" />
+      <stop offset="100%" stop-color="#020202" />
+    </linearGradient>
+
+    <!-- White Glow Filter -->
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur1" />
+      <feGaussianBlur stdDeviation="9" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Soft Ambient Glow -->
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Moving Laser Gradient -->
+    <linearGradient id="laserGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Cyber Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#ffffff" stroke-width="1" stroke-opacity="0.04" />
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.88; filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.7)); }
+      50% { opacity: 1; filter: drop-shadow(0 0 18px rgba(255, 255, 255, 1)); }
+    }
+    @keyframes scanline {
+      0% { transform: translateY(-100px); opacity: 0; }
+      50% { opacity: 0.35; }
+      100% { transform: translateY(260px); opacity: 0; }
+    }
+    @keyframes floatParticle {
+      0% { transform: translateY(0px) translateX(0px); opacity: 0.2; }
+      50% { opacity: 0.9; }
+      100% { transform: translateY(-35px) translateX(15px); opacity: 0.1; }
+    }
+    @keyframes beamMove {
+      0% { transform: translateX(-300px); }
+      100% { transform: translateX(1000px); }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.2; }
+    }
+    .title-glow {
+      animation: pulseGlow 3.5s ease-in-out infinite;
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Arial', sans-serif;
+      font-weight: 900;
+      letter-spacing: 7px;
+      fill: #ffffff;
+    }
+    .tagline {
+      font-family: 'Courier New', Courier, monospace, 'Consolas';
+      font-size: 11px;
+      letter-spacing: 4px;
+      fill: #888888;
+    }
+    .subtitle {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 3.5px;
+      fill: #b5b5b5;
+    }
+    .status-text {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 11px;
+      letter-spacing: 2px;
+      fill: #888888;
+    }
+    .laser-beam {
+      animation: beamMove 4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+    .pulse-dot {
+      animation: blink 1.6s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="900" height="240" rx="14" fill="url(#bgGrad)" stroke="#222222" stroke-width="1.5" />
+
+  <!-- Cyber Grid -->
+  <rect width="900" height="240" rx="14" fill="url(#grid)" />
+
+  <!-- Ambient Central Radial Glow -->
+  <circle cx="450" cy="115" r="160" fill="#ffffff" opacity="0.04" filter="url(#glow)" />
+
+  <!-- Corner Brackets (HUD Cyber Aesthetics) -->
+  <path d="M 22 40 L 22 22 L 40 22" fill="none" stroke="#ffffff" stroke-width="2.5" filter="url(#softGlow)" />
+  <path d="M 878 40 L 878 22 L 860 22" fill="none" stroke="#ffffff" stroke-width="2.5" filter="url(#softGlow)" />
+  <path d="M 22 200 L 22 218 L 40 218" fill="none" stroke="#ffffff" stroke-width="2.5" filter="url(#softGlow)" />
+  <path d="M 878 200 L 878 218 L 860 218" fill="none" stroke="#ffffff" stroke-width="2.5" filter="url(#softGlow)" />
+
+  <!-- Animated Top & Bottom Cyber Border Laser -->
+  <g clip-path="url(#borderClip)">
+    <clipPath id="borderClip">
+      <rect x="0" y="0" width="900" height="240" rx="14" />
+    </clipPath>
+    <rect class="laser-beam" y="0" width="220" height="2" fill="url(#laserGrad)" filter="url(#glow)" />
+    <rect class="laser-beam" y="238" width="220" height="2" fill="url(#laserGrad)" filter="url(#glow)" style="animation-delay: -2s;" />
+  </g>
+
+  <!-- Floating Particles / Cyber Dust -->
+  <circle cx="180" cy="90" r="1.5" fill="#ffffff" style="animation: floatParticle 4s infinite 0.5s;" />
+  <circle cx="280" cy="170" r="1" fill="#ffffff" style="animation: floatParticle 5s infinite 1.2s;" />
+  <circle cx="720" cy="70" r="1.5" fill="#ffffff" style="animation: floatParticle 4.5s infinite 0.8s;" />
+  <circle cx="640" cy="160" r="1" fill="#ffffff" style="animation: floatParticle 6s infinite 2s;" />
+  <circle cx="450" cy="50" r="1.5" fill="#ffffff" style="animation: floatParticle 3.8s infinite 0.2s;" />
+
+  <!-- Top System Tag -->
+  <text x="450" y="58" text-anchor="middle" class="tagline">
+    // SYSTEM ARCHITECTURE : VOID PROTOCOL 0.7 //
+  </text>
+
+  <!-- Glowing Horizontal Decorative Lines -->
+  <line x1="260" y1="72" x2="390" y2="72" stroke="#ffffff" stroke-width="1" stroke-opacity="0.3" />
+  <circle cx="395" cy="72" r="2" fill="#ffffff" opacity="0.6" />
+  <line x1="510" y1="72" x2="640" y2="72" stroke="#ffffff" stroke-width="1" stroke-opacity="0.3" />
+  <circle cx="505" cy="72" r="2" fill="#ffffff" opacity="0.6" />
+
+  <!-- Center Title with Glowing Effect -->
+  <g class="title-glow">
+    <text x="450" y="122" font-size="44" text-anchor="middle" filter="url(#glow)">SEVEN ART MOSCOW</text>
+  </g>
+
+  <!-- Subtitle -->
+  <text x="450" y="156" text-anchor="middle" class="subtitle">
+    FULL-STACK ARCHITECT &amp; BOT DEVELOPER
+  </text>
+
+  <!-- Bottom Separator Line with Center Diamond -->
+  <line x1="280" y1="180" x2="435" y2="180" stroke="#333333" stroke-width="1" />
+  <polygon points="450,176 454,180 450,184 446,180" fill="#ffffff" filter="url(#softGlow)" />
+  <line x1="465" y1="180" x2="620" y2="180" stroke="#333333" stroke-width="1" />
+
+  <!-- Bottom System Status with Glowing Indicator -->
+  <g transform="translate(320, 205)">
+    <circle cx="0" cy="0" r="3.5" fill="#ffffff" class="pulse-dot" filter="url(#glow)" />
+    <text x="14" y="3.5" class="status-text">CORE STATUS: ACTIVE &bull; CODE &bull; ARCHITECTURE &bull; NOIR</text>
+  </g>
+</svg>
